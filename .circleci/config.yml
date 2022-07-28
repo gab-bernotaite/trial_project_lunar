@@ -14,6 +14,6 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - cypress/run:
-        start: npm server
-        wait-on: 'http://localhost:3000/'
+          start: npm server
+          wait-on: 'http://localhost:3000'
 
