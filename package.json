@@ -10,7 +10,7 @@
     "scss": "sass --watch src/scss/main.scss public/styles/main.css",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "server": "node src/index.app",
+    "server": "node src/index.js",
     "ci": "start-server-and-test server http://localhost:3000 cypress:run"
   },
   "keywords": [],
