@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "engines": {
+    "node": "12.11.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node .",
+    "start": "node src/index.js",
     "dev": "nodemon . & npm run scss",
     "scss": "sass --watch src/scss/main.scss public/styles/main.css",
     "cypress:open": "cypress open",
